@@ -132,17 +132,17 @@ font-size: 48px;
     width: 30%;
 }
 .nav span{
-    width: 40%;
+    width: 100%;
     padding-top: 10px ;
     
 }
 .nav span button{
-    width: 50%;
+    width: 60%;
     height: 37px;
     
 }
 #eng{
-    width: 60%;
+    width: 70%;
     height: 37px;
     margin-left: 15px;
 }
@@ -176,7 +176,7 @@ font-size: 48px;
 }
 .span input{
 
-    width: 80%;
+    width: 100%;
 }
 .span button{
     width: 60%;
