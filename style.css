@@ -16,7 +16,7 @@ border-bottom: 10px solid rgb(47, 46, 46);
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+justify-content: space-between;
     padding: 80px;
     padding-top: 30px;
 }
@@ -50,6 +50,13 @@ font-size: 15px;
     border: 1px solid white;
     color: white;
     border-radius: 4px;
+}
+#btn{
+    width: 20%;
+    height: 30px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.838);
+        border: 1px solid black;
 }
 .text1{
     width: 100%;
@@ -127,24 +134,24 @@ font-size: 48px;
 .nav{
     width: 100%;
     height: auto;
+    margin-right: 40px;
 }
 .nav img{
     width: 30%;
+    margin-right: 10px;
+   
+    
 }
 .nav span{
     width: 100%;
     padding-top: 10px ;
     
+    margin-left: 80px;
 }
 .nav span button{
-    width: 60%;
-    height: 37px;
-    
-}
-#eng{
     width: 70%;
     height: 37px;
-    margin-left: 15px;
+    
 }
 .text1{
     width: 100%;
@@ -188,6 +195,15 @@ font-size: 48px;
     flex-direction: column;
 }
 
+
+#btn{
+    display: inline;
+    width: 30%;
+}
+
+#eng{
+    display: none;
+}
 
     
 }
