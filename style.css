@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
+    /* border: 1px solid red; */
     
 }
 .main-container{
@@ -19,7 +20,7 @@ border-bottom: 10px solid rgb(47, 46, 46);
     display: flex;
     align-items: center;
 justify-content: space-between;
-    padding: 80px;
+    padding: 40px;
     padding-top: 30px;
 }
 .nav img{
@@ -27,11 +28,11 @@ width: 10%;
 
 }
 .nav span{
-    width: 30%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     
     
 }
@@ -73,17 +74,20 @@ font-size: 15px;
     color: white;
     margin-top: 20px;
 font-size: 48px;
+text-align: center;
 }
 .text1 h6{
     color: white;
     margin-top: 20px;
     font-size: 24px;
+    text-align: center;
 
 }
 .text1 p{
     color: white;
     margin-top: 20px;
     font-size: 20px;
+    text-align: center;
     
 }
 .text1 .span{
@@ -129,11 +133,17 @@ font-size: 48px;
     width: 100%;
     height: auto;
  margin-bottom: 40px;
-    
+ display: flex;
+ align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .TV{
     width: 100%;
     height: auto;
+    display: flex;
+ align-items: center;
+    justify-content: center;
     
 
 }
@@ -144,12 +154,14 @@ font-size: 48px;
 }
 .t1 h1{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 15px;
+    text-align: center;
 }
 .t1 h4{
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 .cont3{
     width: 100%;
@@ -163,12 +175,18 @@ font-size: 48px;
 .t2{
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 .phone{
     width: 100%;
     height: auto;
-   
+    display: flex;
+align-items: center;
+justify-content: center;
 }
 .phone img{
     width: 70%;
@@ -177,11 +195,12 @@ font-size: 48px;
     color: white;
     font-size: 40px;
     margin-bottom: 17px;
+    text-align: center;
 }
 .t2 h4{
     color: white;
-    font-size: 15px;
-    margin-left: 10px;
+    font-size: 25px;
+  text-align: center;
 }
 .cont4{
     width: 100%;
@@ -195,11 +214,17 @@ font-size: 48px;
 .t3{
     width: 50%;
     height: auto;
-    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .tv2{
     width: 50%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .tv2 img{
     width: 80%;
@@ -209,10 +234,12 @@ font-size: 48px;
     color: white;
     font-size: 50px;
     margin-bottom: 15px;
+    text-align: center;
 }
 .t3 h4{
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 .cont5{
     width: 100%;
@@ -234,15 +261,21 @@ font-size: 48px;
 .t4{
     width: 50%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
 }
 .t4 h1{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 15px;
+    text-align: center;
 }
 .t4 h4{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
 }
 
 
@@ -257,15 +290,17 @@ font-size: 48px;
 
 .main-container{
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
 .nav{
     width: 100%;
     height: auto;
-    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 .nav img{
-    width: 30%;
+    width: 25%;
     margin-right: 10px;
    
     
@@ -273,48 +308,53 @@ font-size: 48px;
 .nav span{
     width: 100%;
     padding-top: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     
-    margin-left: 80px;
+  
 }
 .nav span button{
-    width: 50%;
+    width: 30%;
     height: 37px;
     
 }
 .text1{
     width: 100%;
     height:500px;
+    text-align: center;
     
 }
 .text1 h1{
-    align-items: center;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
     
 
 }
 .text1 h6{
-    align-items: center;
-    font-size: 20px;
+    text-align: center;
+    font-size: 24px;
     
 }
 .text1 p{
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
 
 }
 .text1 span{
     width: 100%;
-
     height: auto;
-    align-items: center;
+
 
 }
 .span input{
 
-    width: 100%;
+    width: 90%;
+    margin-bottom: 15px;
+
 }
 .span button{
-    width: 60%;
+    width: 55%;
     margin-top: 10px;
     
 }
@@ -344,30 +384,36 @@ flex-direction: column;
     width: 80%;
     height: auto;
     margin-left: 8px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+ 
 }
 .t1 h1{
     font-size: 35px;
-margin-bottom: 20px;
+    text-align: center;
+
 }
 
 .t1 h4{
 font-size: 17px;
+text-align: center;
 
 
 }
 .TV{
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .TV img{
-    width: 70%;
-    margin-left: 100px;
+    width: 60%;
+    margin-bottom: 10px;
+    
   
 }
 .cont3{
@@ -386,9 +432,7 @@ font-size: 17px;
   justify-content: center;
   flex-direction: column;
 
-margin-bottom: 30px;
-
-    
+  
 }
 .t2 h1{
     font-size: 30px;
@@ -396,12 +440,13 @@ margin-bottom: 30px;
 }
 
 .t2 h4{
-font-size: 17px;
+font-size: 18px;
+text-align: center;
 
 
 }
 .phone{
-    width: 80%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -409,7 +454,7 @@ font-size: 17px;
    
 }
 .phone img{
-    width: 80%;
+    width: 60%;
   
     
 }
@@ -431,29 +476,34 @@ font-size: 17px;
     display: flex;
     align-items: center;
     justify-content: center;
-margin-bottom: 20px;
+margin-bottom: 10px;
+
 } 
 .tv2 img{
-    width: 80%;
+    width: 70%;
     margin-right: 17px;
 }
 .t3{
-    width: 90%;
+    
+    width: 95%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-flex-direction: column;
-margin-bottom: 40px;
-margin-left: 30px;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
 .t3 h1{
     font-size: 35px;
-
+    text-align: center;
+    
 }
 
 .t3 h4{
-font-size: 20px;
+    font-size: 20px;
+    text-align: center;
+   
 
 
 }
@@ -467,7 +517,7 @@ font-size: 20px;
 
 }
 .t4{
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -486,16 +536,18 @@ margin-bottom: 50px;
 
 }
 .img4 img{
-    width: 85%;
+    width: 70%;
     margin-left: 13px;
 }
 .t4 h1{
     font-size: 35px;
+    text-align: center;
 
 }
 
 .t4 h4{
-font-size: 20px;
+font-size: 15px;
+text-align: center;
 
 
 }
